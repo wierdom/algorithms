@@ -2,6 +2,7 @@ import sys
 from random import randint
 
 def merge_sort(a, i, j):
+    """Recursive mergesort"""
     if i == j: return
     k = (i + j) // 2
     merge_sort(a, i, k)
